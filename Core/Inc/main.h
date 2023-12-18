@@ -47,7 +47,7 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-typedef enum {BACKWARD, FORWARD, ESTOP, FREESTOP} eDirection;
+typedef enum {BACKWARD, FORWARD, ESTOP, FREESTOP, STRAFELEFT, STRAFERIGHT} eDirection;
 typedef enum {LEFTSIDE, RIGHTSIDE, LEFTFRONT, LEFTBACK, RIGHTFRONT, RIGHTBACK, FRONTSIDE, BACKSIDE} eMOTOR;
 /* USER CODE END ET */
 
